@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ZillaCore'
-  s.version      = '0.0.7'
+  s.version      = '0.1.0'
   s.summary      = 'Core Ethereum data structures and algorithms.'
   s.homepage     = 'https://github.com/zla-io/zilla-core'
   s.license      = 'ZLA'

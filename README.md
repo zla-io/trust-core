@@ -10,7 +10,7 @@ Core Ethereum data structures and algorithms. This is part of the [iOS Zilla app
 To install ZillaCore, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ZillaCore', '~> 0.0.7'
+pod 'ZillaCore', '~> 0.1.0'
 ```
 
 ## Contributing
