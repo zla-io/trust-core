@@ -5,6 +5,14 @@
 
 Core Ethereum data structures and algorithms. This is part of the [iOS Zilla app](https://itunes.apple.com/us/app/zilla-the-safe-easy-ico-app/id1318638544?mt=8), but can be used standalone.
 
+## Install
+
+To install ZillaCore, simply add the following line to your Podfile:
+
+```ruby
+pod 'ZillaCore', '~> 0.0.7'
+```
+
 ## Contributing
 
 We intend for this project to be an educational resource: we are excited to
@@ -29,4 +37,4 @@ behavior violating this base foundation of respect.
 
 ## License
 
-Zilla Wallet Core is available under the ZLA license. See the [LICENSE](https://github.com/zla-io/trust-core/blob/master/LICENSE) file for more info.
+Zilla Wallet Core is available under the ZLA license. See the [LICENSE](https://github.com/zla-io/zilla-core/blob/master/LICENSE) file for more info.
