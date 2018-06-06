@@ -1,7 +1,7 @@
 # Zilla Wallet Core
 
-[![Build Status](https://travis-ci.org/zla-io/trust-core.svg?branch=master)](https://travis-ci.org/zla-io/trust-core)
-[![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)](https://github.com/zla-io/trust-core/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/zla-io/zilla-core.svg?branch=master)](https://travis-ci.org/zla-io/zilla-core)
+[![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)](https://github.com/zla-io/zilla-core/blob/master/LICENSE)
 
 Core Ethereum data structures and algorithms. This is part of the [iOS Zilla app](https://itunes.apple.com/us/app/zilla-the-safe-easy-ico-app/id1318638544?mt=8), but can be used standalone.
 
