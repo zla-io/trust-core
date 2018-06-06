@@ -5,7 +5,7 @@
 // file LICENSE at the root of the source code distribution tree.
 
 import XCTest
-import TrustCore
+import ZillaCore
 
 class NamehashTests: XCTestCase {
 

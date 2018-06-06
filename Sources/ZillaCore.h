@@ -6,10 +6,10 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for TrustCore.
-FOUNDATION_EXPORT double TrustCoreVersionNumber;
+//! Project version number for ZillaCore.
+FOUNDATION_EXPORT double ZillaCoreVersionNumber;
 
-//! Project version string for TrustCore.
-FOUNDATION_EXPORT const unsigned char TrustCoreVersionString[];
+//! Project version string for ZillaCore.
+FOUNDATION_EXPORT const unsigned char ZillaCoreVersionString[];
 
-#import <TrustCore/EthereumCrypto.h>
+#import <ZillaCore/EthereumCrypto.h>

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6149A6AA201E433A00A2F35C /* TrustCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6149A6A0201E433A00A2F35C /* TrustCore.framework */; };
-		6149A6C5201E448B00A2F35C /* TrustCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6149A6BC201E43E200A2F35C /* TrustCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A0439B720C7DE1F00BF6C78 /* Pods_ZillaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0439B620C7DE1F00BF6C78 /* Pods_ZillaCore.framework */; };
+		6149A6AA201E433A00A2F35C /* ZillaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6149A6A0201E433A00A2F35C /* ZillaCore.framework */; };
+		6149A6C5201E448B00A2F35C /* ZillaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6149A6BC201E43E200A2F35C /* ZillaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6149A6C8201E455D00A2F35C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149A6C7201E455D00A2F35C /* Address.swift */; };
 		6149A6CA201E472000A2F35C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149A6C9201E472000A2F35C /* Transaction.swift */; };
 		6149A6CC201E496A00A2F35C /* DataHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149A6CB201E496900A2F35C /* DataHex.swift */; };
@@ -33,7 +34,6 @@
 		61D0BA292075D771004F71E1 /* ABIEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0BA282075D771004F71E1 /* ABIEncoder.swift */; };
 		61D0BA2D2075EF53004F71E1 /* ABIEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0BA2C2075EF53004F71E1 /* ABIEncoderTests.swift */; };
 		887FD54919AD2FA39E88EAF0 /* Pods_TrustCore_TrustCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C9DA59AE410E04E68E1F89 /* Pods_TrustCore_TrustCoreTests.framework */; };
-		BB06149A920620338B3323D1 /* Pods_TrustCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682B6374F9856982618A8501 /* Pods_TrustCore.framework */; };
 		BB3864A72090088D00CBF773 /* ENSEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864A62090088D00CBF773 /* ENSEncoder.swift */; };
 		BB3864A92090145600CBF773 /* ENSEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864A82090145600CBF773 /* ENSEncoderTests.swift */; };
 		BB3864AD20904C3900CBF773 /* NamehashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864AC20904C3900CBF773 /* NamehashTests.swift */; };
@@ -41,6 +41,7 @@
 		BB3864C3209569CE00CBF773 /* ReverseResolverEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864C2209569CE00CBF773 /* ReverseResolverEncoder.swift */; };
 		BB3864C720956F8B00CBF773 /* ReverseResolverEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864C620956F8B00CBF773 /* ReverseResolverEncoderTests.swift */; };
 		BB3864C92095C80D00CBF773 /* Namehash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864C82095C80D00CBF773 /* Namehash.swift */; };
+		C39B24F78C82A71F47DAC415 /* Pods_ZillaCore_ZillaCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D8FE8A372A27F92C549620 /* Pods_ZillaCore_ZillaCoreTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6149A6A0201E433A00A2F35C /* TrustCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrustCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6149A6A9201E433A00A2F35C /* TrustCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrustCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6149A6BC201E43E200A2F35C /* TrustCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrustCore.h; sourceTree = "<group>"; };
+		1EBF696F9D9F8CD800A3B834 /* Pods-ZillaCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZillaCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZillaCore/Pods-ZillaCore.release.xcconfig"; sourceTree = "<group>"; };
+		3F43C3EFA082B8F0769FB72B /* Pods-ZillaCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZillaCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZillaCore/Pods-ZillaCore.debug.xcconfig"; sourceTree = "<group>"; };
+		4A0439B420C7DD5F00BF6C78 /* Pods_ZillaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ZillaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0439B620C7DE1F00BF6C78 /* Pods_ZillaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ZillaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B5D6EADDEAFE9AA9D9F471 /* Pods-ZillaCore-ZillaCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZillaCore-ZillaCoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZillaCore-ZillaCoreTests/Pods-ZillaCore-ZillaCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		6149A6A0201E433A00A2F35C /* ZillaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZillaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6149A6A9201E433A00A2F35C /* ZillaCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZillaCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6149A6BC201E43E200A2F35C /* ZillaCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZillaCore.h; sourceTree = "<group>"; };
 		6149A6BD201E43E200A2F35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6149A6BF201E43E200A2F35C /* TestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestsInfo.plist; sourceTree = "<group>"; };
 		6149A6C0201E43E200A2F35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +90,7 @@
 		616B06402098CAE800FE7942 /* ABIDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABIDecoderTests.swift; sourceTree = "<group>"; };
 		61D0BA282075D771004F71E1 /* ABIEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABIEncoder.swift; sourceTree = "<group>"; };
 		61D0BA2C2075EF53004F71E1 /* ABIEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABIEncoderTests.swift; sourceTree = "<group>"; };
+		63D8FE8A372A27F92C549620 /* Pods_ZillaCore_ZillaCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZillaCore_ZillaCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		682B6374F9856982618A8501 /* Pods_TrustCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99258028638D3902B177E80C /* Pods-TrustCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrustCore/Pods-TrustCore.debug.xcconfig"; sourceTree = "<group>"; };
 		A1C9DA59AE410E04E68E1F89 /* Pods_TrustCore_TrustCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustCore_TrustCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +101,7 @@
 		BB3864C2209569CE00CBF773 /* ReverseResolverEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseResolverEncoder.swift; sourceTree = "<group>"; };
 		BB3864C620956F8B00CBF773 /* ReverseResolverEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseResolverEncoderTests.swift; sourceTree = "<group>"; };
 		BB3864C82095C80D00CBF773 /* Namehash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namehash.swift; sourceTree = "<group>"; };
+		C0B57D82121081C401CB1DD7 /* Pods-ZillaCore-ZillaCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZillaCore-ZillaCoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZillaCore-ZillaCoreTests/Pods-ZillaCore-ZillaCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2663E7275439A0F14129090 /* Pods-TrustCore-TrustCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustCore-TrustCoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrustCore-TrustCoreTests/Pods-TrustCore-TrustCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D64B0D7FFB6053D483E3DE8D /* Pods-TrustCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrustCore/Pods-TrustCore.release.xcconfig"; sourceTree = "<group>"; };
 		DA1EEB65EA0444554E8E20B2 /* Pods-TrustCore-TrustCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrustCore-TrustCoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrustCore-TrustCoreTests/Pods-TrustCore-TrustCoreTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB06149A920620338B3323D1 /* Pods_TrustCore.framework in Frameworks */,
+				4A0439B720C7DE1F00BF6C78 /* Pods_ZillaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6149A6AA201E433A00A2F35C /* TrustCore.framework in Frameworks */,
+				6149A6AA201E433A00A2F35C /* ZillaCore.framework in Frameworks */,
 				887FD54919AD2FA39E88EAF0 /* Pods_TrustCore_TrustCoreTests.framework in Frameworks */,
+				C39B24F78C82A71F47DAC415 /* Pods_ZillaCore_ZillaCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +146,8 @@
 		6149A6A1201E433A00A2F35C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6149A6A0201E433A00A2F35C /* TrustCore.framework */,
-				6149A6A9201E433A00A2F35C /* TrustCoreTests.xctest */,
+				6149A6A0201E433A00A2F35C /* ZillaCore.framework */,
+				6149A6A9201E433A00A2F35C /* ZillaCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,7 +155,7 @@
 		6149A6BB201E43E200A2F35C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6149A6BC201E43E200A2F35C /* TrustCore.h */,
+				6149A6BC201E43E200A2F35C /* ZillaCore.h */,
 				61645D172058BD6800411565 /* EthereumCrypto.h */,
 				61645D152058BCD500411565 /* EthereumCrypto.m */,
 				6149A6C7201E455D00A2F35C /* Address.swift */,
@@ -211,8 +220,11 @@
 		8088D8221423003565C764F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A0439B620C7DE1F00BF6C78 /* Pods_ZillaCore.framework */,
+				4A0439B420C7DD5F00BF6C78 /* Pods_ZillaCore.framework */,
 				682B6374F9856982618A8501 /* Pods_TrustCore.framework */,
 				A1C9DA59AE410E04E68E1F89 /* Pods_TrustCore_TrustCoreTests.framework */,
+				63D8FE8A372A27F92C549620 /* Pods_ZillaCore_ZillaCoreTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,6 +236,10 @@
 				D64B0D7FFB6053D483E3DE8D /* Pods-TrustCore.release.xcconfig */,
 				D2663E7275439A0F14129090 /* Pods-TrustCore-TrustCoreTests.debug.xcconfig */,
 				DA1EEB65EA0444554E8E20B2 /* Pods-TrustCore-TrustCoreTests.release.xcconfig */,
+				3F43C3EFA082B8F0769FB72B /* Pods-ZillaCore.debug.xcconfig */,
+				1EBF696F9D9F8CD800A3B834 /* Pods-ZillaCore.release.xcconfig */,
+				C0B57D82121081C401CB1DD7 /* Pods-ZillaCore-ZillaCoreTests.debug.xcconfig */,
+				59B5D6EADDEAFE9AA9D9F471 /* Pods-ZillaCore-ZillaCoreTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -257,16 +273,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				61645D182058BF2E00411565 /* EthereumCrypto.h in Headers */,
-				6149A6C5201E448B00A2F35C /* TrustCore.h in Headers */,
+				6149A6C5201E448B00A2F35C /* ZillaCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6149A69F201E433A00A2F35C /* TrustCore */ = {
+		6149A69F201E433A00A2F35C /* ZillaCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "TrustCore" */;
+			buildConfigurationList = 6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "ZillaCore" */;
 			buildPhases = (
 				6AA00B2DFB76AC1F0FCC2DFC /* [CP] Check Pods Manifest.lock */,
 				6149A69B201E433A00A2F35C /* Sources */,
@@ -279,14 +295,14 @@
 			);
 			dependencies = (
 			);
-			name = TrustCore;
+			name = ZillaCore;
 			productName = TrustCore;
-			productReference = 6149A6A0201E433A00A2F35C /* TrustCore.framework */;
+			productReference = 6149A6A0201E433A00A2F35C /* ZillaCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6149A6A8201E433A00A2F35C /* TrustCoreTests */ = {
+		6149A6A8201E433A00A2F35C /* ZillaCoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "TrustCoreTests" */;
+			buildConfigurationList = 6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "ZillaCoreTests" */;
 			buildPhases = (
 				9814F0219C3936327D6DF815 /* [CP] Check Pods Manifest.lock */,
 				6149A6A5201E433A00A2F35C /* Sources */,
@@ -299,9 +315,9 @@
 			dependencies = (
 				6149A6AC201E433A00A2F35C /* PBXTargetDependency */,
 			);
-			name = TrustCoreTests;
+			name = ZillaCoreTests;
 			productName = TrustCoreTests;
-			productReference = 6149A6A9201E433A00A2F35C /* TrustCoreTests.xctest */;
+			productReference = 6149A6A9201E433A00A2F35C /* ZillaCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +341,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "TrustCore" */;
+			buildConfigurationList = 6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "ZillaCore" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -337,8 +353,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6149A69F201E433A00A2F35C /* TrustCore */,
-				6149A6A8201E433A00A2F35C /* TrustCoreTests */,
+				6149A69F201E433A00A2F35C /* ZillaCore */,
+				6149A6A8201E433A00A2F35C /* ZillaCoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -388,7 +404,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TrustCore-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ZillaCore-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -406,7 +422,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TrustCore-TrustCoreTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ZillaCore-ZillaCoreTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +435,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TrustCore-TrustCoreTests/Pods-TrustCore-TrustCoreTests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZillaCore-ZillaCoreTests/Pods-ZillaCore-ZillaCoreTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
 				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
 				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
@@ -432,7 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrustCore-TrustCoreTests/Pods-TrustCore-TrustCoreTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZillaCore-ZillaCoreTests/Pods-ZillaCore-ZillaCoreTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,7 +501,7 @@
 /* Begin PBXTargetDependency section */
 		6149A6AC201E433A00A2F35C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6149A69F201E433A00A2F35C /* TrustCore */;
+			target = 6149A69F201E433A00A2F35C /* ZillaCore */;
 			targetProxy = 6149A6AB201E433A00A2F35C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -614,7 +630,7 @@
 		};
 		6149A6B5201E433B00A2F35C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99258028638D3902B177E80C /* Pods-TrustCore.debug.xcconfig */;
+			baseConfigurationReference = 3F43C3EFA082B8F0769FB72B /* Pods-ZillaCore.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -626,7 +642,7 @@
 				INFOPLIST_FILE = Metadata/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.TrustCore;
+				PRODUCT_BUNDLE_IDENTIFIER = io.zla.app.ZillaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -636,7 +652,7 @@
 		};
 		6149A6B6201E433B00A2F35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D64B0D7FFB6053D483E3DE8D /* Pods-TrustCore.release.xcconfig */;
+			baseConfigurationReference = 1EBF696F9D9F8CD800A3B834 /* Pods-ZillaCore.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -648,7 +664,7 @@
 				INFOPLIST_FILE = Metadata/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.TrustCore;
+				PRODUCT_BUNDLE_IDENTIFIER = io.zla.app.ZillaCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -657,12 +673,12 @@
 		};
 		6149A6B8201E433B00A2F35C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2663E7275439A0F14129090 /* Pods-TrustCore-TrustCoreTests.debug.xcconfig */;
+			baseConfigurationReference = C0B57D82121081C401CB1DD7 /* Pods-ZillaCore-ZillaCoreTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Metadata/TestsInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.TrustCoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.zla.app.ZillaCoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -670,12 +686,12 @@
 		};
 		6149A6B9201E433B00A2F35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1EEB65EA0444554E8E20B2 /* Pods-TrustCore-TrustCoreTests.release.xcconfig */;
+			baseConfigurationReference = 59B5D6EADDEAFE9AA9D9F471 /* Pods-ZillaCore-ZillaCoreTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Metadata/TestsInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.TrustCoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.zla.app.ZillaCoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -684,7 +700,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "TrustCore" */ = {
+		6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "ZillaCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6149A6B2201E433B00A2F35C /* Debug */,
@@ -693,7 +709,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "TrustCore" */ = {
+		6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "ZillaCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6149A6B5201E433B00A2F35C /* Debug */,
@@ -702,7 +718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "TrustCoreTests" */ = {
+		6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "ZillaCoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6149A6B8201E433B00A2F35C /* Debug */,
