@@ -15,8 +15,8 @@ before_script:
 
 script:
   - set -o pipefail
-  - xcodebuild clean test -workspace TrustCore.xcworkspace -scheme "TrustCore" -destination 'platform=iOS Simulator,name=iPhone 8'
-  - xcodebuild clean test -workspace TrustCore.xcworkspace -scheme "TrustCore" -destination 'platform=iOS Simulator,name=iPhone 5'
+  - xcodebuild clean test -workspace ZillaCore.xcworkspace -scheme "ZillaCore" -destination 'platform=iOS Simulator,name=iPhone 8'
+  - xcodebuild clean test -workspace ZillaCore.xcworkspace -scheme "ZillaCore" -destination 'platform=iOS Simulator,name=iPhone 5'
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
